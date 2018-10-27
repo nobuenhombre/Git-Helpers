@@ -7,12 +7,13 @@ then
     CHECK=`git branch --list $1 `
     if [ "$CHECK" ]
     then
-	      echo "Branch name $1 already exists."
+	echo "Branch name $1 already exists."
     else
-	      echo "Branch name $1 not exists!."
-	      git branch $1
+	echo "Branch name $1 not exists!."
+	git branch $1
     fi
     git checkout $1
+    git pull origin master
 else
     echo "Please input BRANCH name!"
 fi

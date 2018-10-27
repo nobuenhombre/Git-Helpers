@@ -1,0 +1,4 @@
+#!/bin/bash
+
+B=$(git symbolic-ref --short HEAD)
+echo "--[ Current Branch is $B ]--"

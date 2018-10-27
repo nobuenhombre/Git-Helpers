@@ -9,7 +9,7 @@ Git Helper Scripts
 
 В какой ветке мы сейчас?
 
-## gitbr <BRANCH-NAME>
+## gitbr BRANCH-NAME
 
 Если ветки еще нет -
   Ответвиться от свежего мастера.
@@ -17,6 +17,6 @@ Git Helper Scripts
 Если она уже есть -
   Переключиться на ветку и овежить ее от мастера.
 
-## gitdev <BRANCH-NAME>
+## gitdev BRANCH-NAME
 
 Слить указанную ветку в develop.

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ "$1" != "" ] 
+then
+    git checkout master
+    git pull
+    CHECK=`git branch --list $1 `
+    if [ "$CHECK" ]
+    then
+	      echo "Branch name $1 already exists."
+    else
+	      echo "Branch name $1 not exists!."
+	      git branch $1
+    fi
+    git checkout $1
+else
+    echo "Please input BRANCH name!"
+fi

@@ -1,5 +1,6 @@
 # Git-Helpers
-Git Helper Scripts
+Git Helper Scripts.
+просто положите данные скрипты в /usr/local/bin/ и они будут доступны везде
 
 ## gitmas
 
